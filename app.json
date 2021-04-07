@@ -1,6 +1,6 @@
 {
   "name": "heroku-nginx-proxy-node",
-  "repository": "https://github.com/ahawkin/heroku-nginx-proxy-node.git",
+  "repository": "https://github.com/easella/heroku-nginx-proxy-node.git",
   "buildpacks": [{
     "url": "https://github.com/heroku/heroku-buildpack-nginx.git"
   }, {
