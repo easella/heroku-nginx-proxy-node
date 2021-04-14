@@ -1,22 +1,16 @@
 {
-  "name": "heroku-nginx-proxy-node",
+  "name": "LankyAgonizingMedia",
   "version": "1.0.0",
-  "description": "An example of using Nginx as a reverse proxy to a node.js Express app on Heroku 16",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ahawkin/heroku-nginx-proxy-node.git"
-  },
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node src/app.js"
+    "test": "node src/app.js"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.15.0",
-    "cookie-parser": "^1.4.0",
-    "debug": "^2.6.9",
-    "express": "^4.14.0",
-    "morgan": "^1.7.0",
-    "pug": "^2.0.0-beta6",
-    "serve-favicon": "^2.3.0"
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.6.2"
   }
 }
